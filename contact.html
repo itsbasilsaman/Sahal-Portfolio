@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <title>Sahal | Building the Future of Tech & Commerce</title>
-   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <meta property="og:type" content="website" />
   <meta content="summary_large_image" name="twitter:card" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -46,19 +46,23 @@
           <h3>Send us a Message</h3>
           <div class="form-block w-form">
             <form id="email-form" name="email-form" data-name="Email Form">
-              <div class="field-form"><label for="Full-Name" class="field-label">Full Name<span
-                    class="blue-span">*</span></label><input type="text" class="text-field w-input" maxlength="256"
-                  name="Full-Name" data-name="Full Name" id="Full-Name" /></div>
-              <div class="field-form"><label for="Email-Address" class="field-label">Email Address<span
-                    class="blue-span">*</span></label><input type="email" class="text-field w-input" maxlength="256"
-                  name="Email-Address" data-name="Email Address" id="Email-Address" /></div>
-              <div class="field-form"><label for="Subject" class="field-label">Subject<span
-                    class="blue-span">*</span></label><input type="text" class="text-field w-input" maxlength="256"
-                  name="Subject" data-name="Subject" id="Subject" /></div>
-              <div class="field-form"><label for="Message" class="field-label">Your message here<span
-                    class="blue-span">*</span></label><textarea name="Message" maxlength="5000" id="Message"
-                  data-name="Message" class="text-field-long w-input"></textarea></div><input type="submit"
-                value="Send Message" data-wait="Please wait..." class="button w-button" />
+              <div class="field-form">
+                <label for="Full-Name" class="field-label">Full Name<span class="blue-span">*</span></label>
+                <input type="text" class="text-field w-input" maxlength="256" name="Full-Name" id="Full-Name" required />
+              </div>
+              <div class="field-form">
+                <label for="Email-Address" class="field-label">Email Address<span class="blue-span">*</span></label>
+                <input type="email" class="text-field w-input" maxlength="256" name="Email-Address" id="Email-Address" required />
+              </div>
+              <div class="field-form">
+                <label for="Subject" class="field-label">Subject<span class="blue-span">*</span></label>
+                <input type="text" class="text-field w-input" maxlength="256" name="Subject" id="Subject" required />
+              </div>
+              <div class="field-form">
+                <label for="Message" class="field-label">Your message here<span class="blue-span">*</span></label>
+                <textarea name="Message" maxlength="5000" id="Message" class="text-field-long w-input" required></textarea>
+              </div>
+              <input type="submit" value="Send Message" class="button w-button" />
             </form>
             <div class="success-message w-form-done">
               <div>Thank you! Your submission has been received!</div>
@@ -74,22 +78,19 @@
   </div>
   <div class="content-section">
     <div class="container">
-      <div class="w-layout-grid contact-card-grid">
-        <div class="contact-card"><img
-            src="https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807ebbba96fe5fd_Contact Icon 01.svg"
-            alt="" class="contact-icon" />
-          <div>+61 0422 322 11(3)</div>
+      <div  class="w-layout-grid contact-card-grid">
+        <a href="tel:+918089145554" class="contact-card"><i class="fa-solid fa-phone" style="color: black; margin: 0px 5px;"></i>
+          <div>+91 80891 45554</div>
+        </a>
+        <div class="contact-card">
+          <a href="https://www.linkedin.com/in/mohammed-sahal-493537269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " style="display: flex; color: gray; ">
+            <i class="fa-brands fa-linkedin" style="margin: 0px 7px;"></i>
+            <div>Mohammed Sahal</div>
+          </a>
         </div>
-        <div class="contact-card"><img
-            src="https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807ebdc536fe5fe_Contact Icon 02.svg"
-            alt="" class="contact-icon" />
-          <div>hi@johndesign.com</div>
-        </div>
-        <div class="contact-card"><img
-            src="https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807eb2ad06fe5ff_Contact Icon 03.svg"
-            alt="" class="contact-icon" />
-          <div>1422 Black Trail Suite 236</div>
-        </div>
+        <a href="https://www.instagram.com/sahalkizhissery?igsh=MWljcWZwZTZwYjhkaA==" class="contact-card"><i class="fa-brands fa-instagram" style="margin: 0px 7px;"></i>
+          <div>Instagram</div>
+        </a>
       </div>
     </div>
   </div>
@@ -98,27 +99,46 @@
       <div class="footer-card">
         <div class="footer-content-wrap">
           <div class="title">CONTACT ME</div>
-          <h2 class="footer-h2">Got a Project? Lets Talk!</h2>
-          <div class="footer-mail-wrap"><img
-              src="https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807ebbbf06fe5e2_Mail.svg" alt=""
-              class="mail-icon" />
-            <div class="footer-email">hello@nero.com</div>
-          </div>
+          <h2 class="footer-h2">Start a Conversation Here</h2>
+          <a class="footer-mail-wrap" href="tel:+918089145554">
+            <i class="fa-solid fa-phone" style="font-size: 20px; margin: 0px 6px; color: black;"></i>
+            <div class="footer-email">+91 80891 45554</div>
+          </a>
         </div>
         <div class="footer-link-wrap">
-          <div class="footer-logo"><img
-              src="https://assets.website-files.com/5f067b661807eb95a36fe56a/5f067b661807eb9e446fe63d_Logo Mark.svg"
-              width="29" alt="" /></div>
-          <div class="nav-menu-footer"><a href="index.html" class="nav-link">About</a><a href="index.html"
-              class="nav-link">Work</a><a href="index.html" class="nav-link">Service</a><a href="contact.html"
-              aria-current="page" class="nav-link w--current">Contact</a></div>
+          <div class="footer-logo">
+            <img
+              src="https://cdn.prod.website-files.com/5f067b661807eb95a36fe56a/5f067b661807eb9e446fe63d_Logo Mark.svg"
+              width="29"
+              alt=""
+            />
+          </div>
+          <div class="nav-menu-footer">
+            <a
+              href="index.html"
+              aria-current="page"
+              class="nav-link w--current"
+              >About</a
+            ><a
+              href="index.html"
+              aria-current="page"
+              class="nav-link w--current"
+              >Ventures</a
+            ><a
+              href="index.html"
+              aria-current="page"
+              class="nav-link w--current"
+              >Skill</a
+            ><a href="contact.html" class="nav-link">Contact</a>
+          </div>
         </div>
       </div>
       <div class="legal-text-wrap">
-        <div class="footer-legal-text">© 2020 Flowbase. Powered by <a href="http://webflow.com/"
-            target="_blank">Webflow</a><br /></div>
-        <div><a href="template/style.html" class="template-link">Style Guide</a><a href="template/licensing.html"
-            class="template-link">Licensing</a></div>
+        <div class="footer-legal-text">
+          © 2025 Sahal. Powered by   Team Ae | Cyberseed | AES School of Commerce.
+          <a href="http://webflow.com/" target="_blank"> </a><br />
+        </div>
+       
       </div>
     </div>
   </div>
@@ -129,6 +149,27 @@
     type="text/javascript"></script>
   <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 </body>
+<script>
+document.getElementById("email-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    let name = document.getElementById("Full-Name").value;
+    let email = document.getElementById("Email-Address").value;
+    let subject = document.getElementById("Subject").value;
+    let message = document.getElementById("Message").value;
+
+    // Properly format the message for WhatsApp
+    let whatsappMessage = `Hello, my name is *${name}*.\n📧 Email: ${email}\n📌 Subject: ${subject}\n\n📝 Message:\n${message}`;
+
+    let phoneNumber = "918089145554"; // Ensure it's in international format
+    let whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(whatsappMessage)}`;
+
+    window.open(whatsappUrl, "_blank"); // Open WhatsApp chat
+});
+
+
+
+</script>
 <!-- Mirrored from nero-portfolio.webflow.io/contact by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 04 Mar 2025 04:45:39 GMT -->
 
 </html>
