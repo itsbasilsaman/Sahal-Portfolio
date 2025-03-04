@@ -1,0 +1,32 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 04 Mar 2025 10:15:25 at https://nero-portfolio.webflow.io/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://nero-portfolio.webflow.io/ -O1 "C:\My Web Sites\Sahal Website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:15:39	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/mobile (from https://nero-portfolio.webflow.io/)
+10:15:39	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/food (from https://nero-portfolio.webflow.io/)
+10:15:39	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/music (from https://nero-portfolio.webflow.io/)
+10:15:39	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/dashboard-ux (from https://nero-portfolio.webflow.io/)
+10:15:40	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/platform (from https://nero-portfolio.webflow.io/)
+10:15:41	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/financial-manager-app (from https://nero-portfolio.webflow.io/)
+10:15:44	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/template/licensing (from https://nero-portfolio.webflow.io/)
+10:15:44	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/mobile (from https://nero-portfolio.webflow.io/)
+10:15:44	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/food (from https://nero-portfolio.webflow.io/)
+10:15:45	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/music (from https://nero-portfolio.webflow.io/)
+10:15:45	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/dashboard-ux (from https://nero-portfolio.webflow.io/)
+10:15:45	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/platform (from https://nero-portfolio.webflow.io/)
+10:15:47	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/projects/financial-manager-app (from https://nero-portfolio.webflow.io/)
+10:15:47	Warning: 	Retry after error 502 (Bad Gateway) at link https://nero-portfolio.webflow.io/template/licensing (from https://nero-portfolio.webflow.io/)
+10:15:47	Error: 	"Bad Gateway" (502) after 2 retries at link https://nero-portfolio.webflow.io/projects/mobile (from https://nero-portfolio.webflow.io/)
+10:15:47	Error: 	"Bad Gateway" (502) after 2 retries at link https://nero-portfolio.webflow.io/projects/food (from https://nero-portfolio.webflow.io/)
+10:15:47	Error: 	"Bad Gateway" (502) after 2 retries at link https://nero-portfolio.webflow.io/projects/music (from https://nero-portfolio.webflow.io/)
+10:15:47	Error: 	"Bad Gateway" (502) after 2 retries at link https://nero-portfolio.webflow.io/projects/dashboard-ux (from https://nero-portfolio.webflow.io/)
+10:15:47	Error: 	"Bad Gateway" (502) after 2 retries at link https://nero-portfolio.webflow.io/projects/platform (from https://nero-portfolio.webflow.io/)
+10:15:47	Error: 	"Bad Gateway" (502) after 2 retries at link https://nero-portfolio.webflow.io/projects/financial-manager-app (from https://nero-portfolio.webflow.io/)
+10:15:47	Error: 	"Bad Gateway" (502) after 2 retries at link https://nero-portfolio.webflow.io/template/licensing (from https://nero-portfolio.webflow.io/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 22 seconds : 52 links scanned, 30 files written (6502015 bytes overall) [6129770 bytes received at 278625 bytes/sec], 732424 bytes transferred using HTTP compression in 10 files, ratio 26%, 3.7 requests per connection
+(7 errors, 14 warnings, 0 messages)
